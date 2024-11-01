@@ -1,0 +1,93 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+footer {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004a99;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    font-size: 18px; /* Increase font size */
+}
